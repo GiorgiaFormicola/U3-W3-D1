@@ -120,3 +120,21 @@ const user2: User = {
 /* const user3: User = { <= ERRORE
   phone: 3330138643,
 }; */
+
+// EXERCISE 15
+interface Student {
+  name: string;
+  grade: number;
+}
+
+const studentsArray: Student[] = [
+  { name: "Marco", grade: 8 },
+  {
+    name: "Luca",
+    grade: 6,
+  },
+  {
+    name: "Laura",
+    grade: 10,
+  },
+];

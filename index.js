@@ -72,6 +72,14 @@ var user2 = {
     email: "tizio@gmail.com",
     phone: 3330138643,
 };
-/* const user3: User = { <= ERRORE
-  phone: 3330138643,
-}; */
+var studentsArray = [
+    { name: "Marco", grade: 8 },
+    {
+        name: "Luca",
+        grade: 6,
+    },
+    {
+        name: "Laura",
+        grade: 10,
+    },
+];
