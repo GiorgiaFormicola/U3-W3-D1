@@ -149,6 +149,8 @@ interface Auto extends Vehicle {
   brand: string;
 }
 
+//EXERCISE 17
+
 const auto1: Auto = {
   name: "car",
   hasWheels: true,

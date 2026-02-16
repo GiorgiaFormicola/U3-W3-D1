@@ -83,6 +83,7 @@ var studentsArray = [
         grade: 10,
     },
 ];
+//EXERCISE 17
 var auto1 = {
     name: "car",
     hasWheels: true,
