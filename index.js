@@ -28,3 +28,8 @@ var calculateIVA = function (price) {
     return price + price * 0.22;
 };
 console.log("ES.5", calculateIVA(10) + " euro");
+// EXERCISE 6
+var concatenateStrings = function (string1, string2) {
+    return (string1 + string2).length;
+};
+console.log("ES.6", concatenateStrings("Ciao", "Giorgia"));

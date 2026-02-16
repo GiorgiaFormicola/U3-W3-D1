@@ -36,3 +36,10 @@ const calculateIVA = function (price: number): number {
 };
 
 console.log("ES.5", calculateIVA(10) + " euro");
+
+// EXERCISE 6
+const concatenateStrings = function (string1: string, string2: string): number {
+  return (string1 + string2).length;
+};
+
+console.log("ES.6", concatenateStrings("Ciao", "Giorgia"));
