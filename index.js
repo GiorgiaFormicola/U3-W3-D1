@@ -18,3 +18,8 @@ var greet = function (name) {
     return "Ciao " + name;
 };
 console.log("ES.3", greet("Giorgia"));
+//EXERCISE 4
+var sum = function (a, b) {
+    return a + b;
+};
+console.log("ES.4", sum(5, 6));

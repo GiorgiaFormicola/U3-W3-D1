@@ -22,3 +22,10 @@ const greet = (name: string) => {
   return "Ciao " + name;
 };
 console.log("ES.3", greet("Giorgia"));
+
+//EXERCISE 4
+const sum = (a: number, b: number): number => {
+  return a + b;
+};
+
+console.log("ES.4", sum(5, 6));
