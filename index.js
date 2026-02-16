@@ -93,3 +93,5 @@ var auto1 = {
 /* I Generics TypeScript sono dei "parametri di tipo" che ci permettono di definire
 funzioni, classi o interfacce con dei tipi ancora non definiti e che verrano poi specificati
 nel momento in cui quese vengono utilizzate/invocate*/
+//EXERCISE 19
+/* Sì, un'interfaccia può contenere più tipi generici*/
