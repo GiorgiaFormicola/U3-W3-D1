@@ -50,3 +50,16 @@ Significa quindi definire un tipo che sia l'unione dei tipi presi in considerazi
 Si scrive in questo modo:
 "tipo1 | tipo2" => es. let mixedType : string | number = 100
  */
+
+// EXERCISE 8
+let mixedVariable: number | null | undefined = 100;
+mixedVariable = null;
+mixedVariable = undefined;
+// mixedVariable = "Ciao" <= ERRORE
+
+// oppure potremmo usare un Type Alias
+type CustomType = number | null | undefined;
+let mixedVariable2: CustomType = 100;
+mixedVariable2 = null;
+mixedVariable2 = undefined;
+// mixedVariable2 = "Ciao" <= ERRORE

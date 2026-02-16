@@ -39,3 +39,11 @@ Significa quindi definire un tipo che sia l'unione dei tipi presi in considerazi
 Si scrive in questo modo:
 "tipo1 | tipo2" => es. let mixedType : string | number = 100
  */
+// EXERCISE 8
+var mixedVariable = 100;
+mixedVariable = null;
+mixedVariable = undefined;
+var mixedVariable2 = 100;
+mixedVariable2 = null;
+mixedVariable2 = undefined;
+// mixedVariable2 = "Ciao" <= ERRORE
