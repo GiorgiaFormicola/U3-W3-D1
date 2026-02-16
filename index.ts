@@ -101,3 +101,22 @@ const Giorgia: Person = {
   lastname: "Formicola",
   age: 28, // se age: "28" <= ERRORE
 };
+
+// EXERCISE 14
+interface User {
+  email: string;
+  phone?: number;
+}
+
+const user1: User = {
+  email: "tizio@gmail.com",
+};
+
+const user2: User = {
+  email: "tizio@gmail.com",
+  phone: 3330138643,
+};
+
+/* const user3: User = { <= ERRORE
+  phone: 3330138643,
+}; */

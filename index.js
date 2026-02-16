@@ -65,3 +65,13 @@ var Giorgia = {
     lastname: "Formicola",
     age: 28, // se age: "28" <= ERRORE
 };
+var user1 = {
+    email: "tizio@gmail.com",
+};
+var user2 = {
+    email: "tizio@gmail.com",
+    phone: 3330138643,
+};
+/* const user3: User = { <= ERRORE
+  phone: 3330138643,
+}; */
