@@ -29,3 +29,10 @@ const sum = (a: number, b: number): number => {
 };
 
 console.log("ES.4", sum(5, 6));
+
+// EXERCISE 5
+const calculateIVA = function (price: number): number {
+  return price + price * 0.22;
+};
+
+console.log("ES.5", calculateIVA(10) + " euro");

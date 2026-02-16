@@ -23,3 +23,8 @@ var sum = function (a, b) {
     return a + b;
 };
 console.log("ES.4", sum(5, 6));
+// EXERCISE 5
+var calculateIVA = function (price) {
+    return price + price * 0.22;
+};
+console.log("ES.5", calculateIVA(10) + " euro");
