@@ -33,3 +33,9 @@ var concatenateStrings = function (string1, string2) {
     return (string1 + string2).length;
 };
 console.log("ES.6", concatenateStrings("Ciao", "Giorgia"));
+// EXERCISE 7
+/* Un Type Union sostanzialmente è l'unione di più "insiemi" di tipi di dato.
+Significa quindi definire un tipo che sia l'unione dei tipi presi in considerazione.
+Si scrive in questo modo:
+"tipo1 | tipo2" => es. let mixedType : string | number = 100
+ */
