@@ -74,3 +74,8 @@ day = "venerdì";
 day = "sabato";
 day = "domenica";
 // day = "ciao" <= ERRORE
+
+// EXERCISE 10
+const numbers: number[] = [1, 2, 3];
+/* oppure
+const numbers : Array<number> = [1, 2, 3]; */
