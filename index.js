@@ -58,3 +58,5 @@ day = "domenica";
 var numbers = [1, 2, 3];
 /* oppure
 const numbers : Array<number> = [1, 2, 3]; */
+// EXERCISE 11
+var tuple = ["gatto", "cane", "topo", 10, -1];

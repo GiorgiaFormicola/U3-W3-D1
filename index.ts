@@ -79,3 +79,6 @@ day = "domenica";
 const numbers: number[] = [1, 2, 3];
 /* oppure
 const numbers : Array<number> = [1, 2, 3]; */
+
+// EXERCISE 11
+let tuple: [string, string, string, number, number] = ["gatto", "cane", "topo", 10, -1];
