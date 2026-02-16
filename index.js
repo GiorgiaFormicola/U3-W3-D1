@@ -60,8 +60,8 @@ var numbers = [1, 2, 3];
 const numbers : Array<number> = [1, 2, 3]; */
 // EXERCISE 11
 var tuple = ["gatto", "cane", "topo", 10, -1];
-// EXERCISE 12
-/* Un Interface ci consente di creare la struttura di un oggetto in maniera molto specifica
- definendone sia le proprietà, sia di che tipo queste proprietà debbano essere. Un Type invece è un tipo "custom"
- creato dall'unione di tipi primitivi.
-  */
+var Giorgia = {
+    firstname: "Giorgia",
+    lastname: "Formicola",
+    age: 28, // se age: "28" <= ERRORE
+};

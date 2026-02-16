@@ -88,3 +88,16 @@ let tuple: [string, string, string, number, number] = ["gatto", "cane", "topo", 
  definendone sia le proprietà, sia di che tipo queste proprietà debbano essere. Un Type invece è un tipo "custom"
  creato dall'unione di tipi primitivi.
   */
+
+// EXERCISE 13
+interface Person {
+  firstname: string;
+  lastname: string;
+  age: number;
+}
+
+const Giorgia: Person = {
+  firstname: "Giorgia",
+  lastname: "Formicola",
+  age: 28, // se age: "28" <= ERRORE
+};
