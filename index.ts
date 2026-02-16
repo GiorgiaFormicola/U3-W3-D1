@@ -164,3 +164,9 @@ nel momento in cui quese vengono utilizzate/invocate*/
 
 //EXERCISE 19
 /* Sì, un'interfaccia può contenere più tipi generici*/
+
+//EXERCISE 20
+interface APIResponse<A> {
+  success: boolean;
+  data: A;
+}
