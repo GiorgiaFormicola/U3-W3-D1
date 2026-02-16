@@ -138,3 +138,19 @@ const studentsArray: Student[] = [
     grade: 10,
   },
 ];
+
+// EXERCISE 16
+interface Vehicle {
+  name: string;
+  hasWheels: boolean;
+}
+
+interface Auto extends Vehicle {
+  brand: string;
+}
+
+const auto1: Auto = {
+  name: "car",
+  hasWheels: true,
+  brand: "Fiat",
+};

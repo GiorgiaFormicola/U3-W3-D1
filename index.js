@@ -83,3 +83,8 @@ var studentsArray = [
         grade: 10,
     },
 ];
+var auto1 = {
+    name: "car",
+    hasWheels: true,
+    brand: "Fiat",
+};
