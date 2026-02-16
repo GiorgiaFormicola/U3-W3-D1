@@ -63,3 +63,14 @@ let mixedVariable2: CustomType = 100;
 mixedVariable2 = null;
 mixedVariable2 = undefined;
 // mixedVariable2 = "Ciao" <= ERRORE
+
+// EXERCISE 9
+type weekDays = "lunedì" | "martedì" | "mercoledì" | "giovedì" | "venerdì" | "sabato" | "domenica";
+let day: weekDays = "lunedì";
+day = "martedì";
+day = "mercoledì";
+day = "giovedì";
+day = "venerdì";
+day = "sabato";
+day = "domenica";
+// day = "ciao" <= ERRORE

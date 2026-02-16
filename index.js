@@ -46,4 +46,11 @@ mixedVariable = undefined;
 var mixedVariable2 = 100;
 mixedVariable2 = null;
 mixedVariable2 = undefined;
-// mixedVariable2 = "Ciao" <= ERRORE
+var day = "lunedì";
+day = "martedì";
+day = "mercoledì";
+day = "giovedì";
+day = "venerdì";
+day = "sabato";
+day = "domenica";
+// day = "ciao" <= ERRORE
