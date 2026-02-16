@@ -8,11 +8,17 @@
 - any*/
 
 // EXERCISE 2
-let name: string = "Giorgia";
-console.log("ES.2_NOME", name);
+let myName: string = "Giorgia";
+console.log("ES.2_NOME", myName);
 
 let age: number = 28;
 console.log("ES.2_ETA'", age);
 
 let studyingTS: boolean = true;
 console.log("ES.2_STA STUDIANDO TYPESCRIPT?", studyingTS);
+
+//EXERCISE 3
+const greet = (name: string) => {
+  return "Ciao " + name;
+};
+console.log("ES.3", greet("Giorgia"));
